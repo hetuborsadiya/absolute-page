@@ -1,0 +1,201 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #020202;
+  color: #090505;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 10px;
+  background-color: #020202;
+}
+
+.navbar-left, .navbar-center {
+  
+  
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-left li, .navbar-center li {
+  margin: 0 0px;
+}
+
+.navbar-left a, .navbar-center a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  transition: color 0.3s;
+  
+}
+
+
+
+.navbar-right .logo {
+  height: 70px;
+  background-color: #000;
+}
+
+.logo {
+background-color: #000;
+}
+
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+  }
+
+  .hero-section {
+    background-size: cover;
+    background-position: center;
+    justify-content: left;
+    padding: 0px 40px;
+    display: block;
+  }
+
+  .hero-section h1 {
+    display: block;
+    font-size: 48px;
+    margin: 0;
+  }
+
+  .hero-section p {
+    justify-content: left;
+    display: block;
+    font-size: 20px;
+    margin: 10px 0 30px;
+  }
+
+  .hero-section .btn {
+    background-color: orange;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .hero-section .btn:hover {
+    background-color: darkorange;
+  }
+
+  .info-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #111;
+  }
+
+  .info-section img {
+    max-width: 50%;
+  }
+
+  .info-blocks {
+    max-width: 40%;
+  }
+
+  .info-block {
+    margin-bottom: 20px;
+  }
+
+  .info-block h3 {
+    font-size: 35px;
+    margin: 0 0 10px;
+  }
+
+  .info-block p {
+    font-size: 20px;
+    margin: 0;
+    color: #ccc;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    
+}
+
+.domains {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    
+}
+
+.domain {
+    background: #222;
+    padding: 1em;
+    border-radius: 8px;
+    text-align: cente
+}
+
+button {
+  background: gold;
+  border: none;
+  padding: 0.5em 1em;
+  color: #000;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.services, .partners, .subscribe {
+  padding: 2em;
+  text-align: left;
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1em;
+}
+
+.logo {
+  background: #444;
+  padding: 2em;
+  border-radius: 8px;
+}
+
+.subscribe form {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.input {
+  padding: 0.5em;
+  border: none;
+  border-radius: 4px;
+}
+
+footer {
+  background: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 2em;
+  font-size: 0.9em;
+}
+
+footer .contact, footer .links {
+  margin-bottom: 1em;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}

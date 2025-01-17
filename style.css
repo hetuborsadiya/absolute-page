@@ -15,8 +15,6 @@ body {
 }
 
 .navbar-left, .navbar-center {
-  
-  
   padding: 0;
   margin: 0;
 }
@@ -134,15 +132,20 @@ header {
 .domains {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1em;
+    
     
 }
-
-.domain {
+.img {
+  gap: 2px;
+  padding: 20px;
+  
+}
+.domains {
     background: #222;
     padding: 1em;
-    border-radius: 8px;
-    text-align: cente
+    border-radius: 5px;
+    text-align: left;
+    gap: 2px;
 }
 
 button {
@@ -198,4 +201,4 @@ footer .contact, footer .links {
 footer a {
   color: #fff;
   text-decoration: none;
-}
+} 
